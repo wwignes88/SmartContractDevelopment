@@ -1,2 +1,0 @@
-# SmartContractDevelopment
-Smart Contract Development
