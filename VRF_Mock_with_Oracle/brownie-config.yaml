@@ -21,18 +21,18 @@ wallets:
   from_key: ${PRIVATE_KEY}
 networks:
   sepolia:
-    link_    : "0x6A508dC5DF466C5AE19D406941FE809525e3E9B4"
-    mock2_   : "0x7Ac4b7a8cdbB49dbd83cCb6024165c3Bd270A267"
-    mock3_   : "0x49dc2513185b393C244035F5E7Fe9ec665D9ce6c"
-    wrapper_ : "0xc394602FAEaC95034A33930AcF2C858d5C29976D"
-    oracle_  : ""
+    link_    : " [WILL UPDATE AUTOMATICALLY WHEN DEPLOY.PY is ran] on sepolia"
+    mock2_   : " [WILL UPDATE AUTOMATICALLY WHEN DEPLOY.PY is ran] on sepolia"
+    mock3_   : " [WILL UPDATE AUTOMATICALLY WHEN DEPLOY.PY is ran] on sepolia"
+    wrapper_ : " [WILL UPDATE AUTOMATICALLY WHEN DEPLOY.PY is ran] on sepolia"
+    oracle_  : " [WILL UPDATE AUTOMATICALLY WHEN DEPLOY.PY is ran] on sepolia"
 
   development:
-    link_    : "0xEAe13cD0b3586C09AFe762F933dA190D614628b6"
-    mock2_   : "0x2FEdDFaa7Ad25E111806eE1555458C4b61FF331C"
-    mock3_   : "0xC0C42a21ADEDFeBE46A9B57288FD74F54ea64dA1"
-    wrapper_ : "0xef14406fa6b67C591f53AA389915cd8C7D88912A"
-    oracle_  : "0xCc22fbf05b0C5CE7f6BfB7BbcD6aFEeA1F61dc06"
+    link_    : " [WILL UPDATE AUTOMATICALLY WHEN DEPLOY.PY is ran] on development"
+    mock2_   : " [WILL UPDATE AUTOMATICALLY WHEN DEPLOY.PY is ran] on development"
+    mock3_   : " [WILL UPDATE AUTOMATICALLY WHEN DEPLOY.PY is ran] on development"
+    wrapper_ : " [WILL UPDATE AUTOMATICALLY WHEN DEPLOY.PY is ran] on development"
+    oracle_  : " [WILL UPDATE AUTOMATICALLY WHEN DEPLOY.PY is ran] on development"
     link_coordinator  : "0x51cf75287148cba21FBAAF69FBE3D60546e7d16e"
 
 
