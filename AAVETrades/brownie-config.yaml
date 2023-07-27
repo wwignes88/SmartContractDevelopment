@@ -16,8 +16,9 @@ networks:
     lending_pool: '0x76cc67FF2CC77821A70ED14321111Ce381C2594D'
     wavax_token : '0xd00ae08403B9bbb9124bB305C09058E32C39A48c'
     weth_token  : '0x9668f5f55f2712Dd2dfa316256609b516292D554'
-    # ????
+    # for Link token see https://docs.chain.link/resources/link-token-contracts
     link_token  : '0x0b9d5D9136855f6FEc3c0993feE6E9CE8a297846' 
+    
     # price-feeds (currency conversion rates):
     # *see https://docs.chain.link/data-feeds/price-feeds/addresses?network=avalanche
     avax_to_usd : '0x5498BB86BC934c8D34FDA08E81D444153d0D06aD'
@@ -25,7 +26,7 @@ networks:
     link_to_avax: '0x79c91fd4F8b3DaBEe17d286EB11cEE4D83521775'
     link_to_usd : '0x34C4c526902d88a3Aa98DB8a9b802603EB1E3470'
 
-    FlashLoan_    : "0x27293280A84c5A57b16487Db9D7f57DB6f521E63"
+    FlashLoan_    : "[deployed flashloan contract]"
 
   polygon-test:
     # address of lending pool and tokens
@@ -51,10 +52,11 @@ networks:
     link_to_usd   : '0x1C2252aeeD50e0c9B64bDfF2735Ee3C932F5C408'
 
     # our deployment
-    FlashLoan_    : "0x27293280A84c5A57b16487Db9D7f57DB6f521E63"
+    FlashLoan_    : "[deployed FlashLoan.sol address]"
   
   sepolia:
-    testing_  : "test.sol contract address."
+    # for testing EventWatcher.
+    testing_  : "[test.sol contract address.]"
 
 
  
