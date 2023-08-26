@@ -24,5 +24,5 @@ networks:
     link_to_matic : '0x12162c3E810393dEC01362aBf156D7ecf6159528'
     link_to_usd   : '0x1C2252aeeD50e0c9B64bDfF2735Ee3C932F5C408'
 
-    request_ : "0x5Af485A204Ae34a689CDdbd1Dc43B24a8fC48456"
+    request_ : "[will load automatically upon deployment]"
   
