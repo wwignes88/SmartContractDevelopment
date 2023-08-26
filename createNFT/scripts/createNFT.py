@@ -13,7 +13,7 @@ matic_to_usd = matic_to_usd*1e10
 matic_link   = matic_to_usd/link_to_usd
 
 from web3 import Web3
-w3 = Web3(Web3.HTTPProvider("https://polygon-mumbai.g.alchemy.com/v2/8SR4c1UGYLHeFmTL3K2Gnr5jIKZk9aBc"))
+w3 = Web3(Web3.HTTPProvider("https://polygon-mumbai.g.alchemy.com/v2/[enter your alchemy key]"))
 account      = get_account()
 NFT          = get_contract("nft_")
     
