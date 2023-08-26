@@ -4,7 +4,7 @@ import os
 import sys
 
 OPENSEA_URL   = "https://testnets.opensea.io/assets/mumbai/{}/{}"
-PINATA_DOMAIN = "moccasin-extensive-piranha-368"
+PINATA_DOMAIN = "[enter your pinata sub-domain]"
 PINATA_URL    = "https://" + PINATA_DOMAIN + ".mypinata.cloud/ipfs/{}"
 
 
