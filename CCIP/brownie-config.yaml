@@ -5,7 +5,6 @@ compiler:
     remappings:
       - '@CCIP=..\..\CCIP_modules'
       - '@CHAINLINK=..\..\CHAINLINK_modules'
-      - '@UNISWAP=..\..\UNISWAP_modules\node_modules'
 dotenv: .env
 
 networks:
@@ -16,8 +15,8 @@ networks:
     LnM      : "0x466D489b6d36E7E3b824ef491C225F5830E81cC1"
     router   : "0xD0daae2231E9CB96b94C8512223533293C3693Bf"
     # my deployments
-    lendable  : "0xB988cb51ce8B2edb5998D4BA6d4228c6ab545B00"
-    enumerate : "0x61FAa96c0D529Aa5730D8288f6bA844C89774701"
+    lendable  : ""
+
 
   polygon-test:
     # see https://docs.chain.link/ccip/supported-networks
@@ -26,8 +25,7 @@ networks:
     LnM        : "0xc1c76a8c5bFDE1Be034bbcD930c668726E7C1987"
     router     : "0x70499c328e1E2a3c41108bd3730F6670a44595D1"
     # my deployments
-    lendable : "0x5ff350C7a74aE7eD5CA69Ab79173EB46904C38ac"
-    enumerate : "0x584D95c91F30DC90ba36eb9Edd126a16202b4f8c"
+    lendable : ""
 
 
 wallets:
