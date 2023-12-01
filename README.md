@@ -1,4 +1,8 @@
-The VRF_Mock_with_Oracle project has a readme pdf file which should be consulted for those who are new to eth-brownie. This project makes use of 'EventWatcher' which listens for emitted events. 
+1) These are not production ready codes, least not in the sense that they've been analyzed for seurity purposes.
+
+2) Chainlinks newly released CCIP protocol is, at the time of posting, only available on testnets.
+
+3) The VRF_Mock_with_Oracle project has a readme pdf file which should be consulted for those who are new to eth-brownie. This project makes use of 'EventWatcher' which listens for emitted events. 
 
 For an implementation of the live VRFCoordinatorV2.sol contract see 'LIve Requests' folder. Like the mock events are listened for, but here we get more precise in the sense we calculate the requestId then filer emitted events according to this requestId so that we can see when our requests are fulfilled. The cost of requesting randomness is also calculated.
 
