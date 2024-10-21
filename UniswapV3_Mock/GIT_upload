@@ -1,0 +1,26 @@
+ADD NEW REPO:
+
+- cd /path/to/your/project
+- git init
+- git add .
+- git commit -m "Initial commit"
+- git remote add origin https://github.com/wwignes88/UniswapV3Mock.git
+- git push -u origin master
+
+
+ADD TO EXISTING REPO:
+
+- cd C:\Users\PC\Documents\I_Coding\BLOCKCHAIN\TRADE\UniswapV3Mock
+- git init
+- git add .
+- git commit -m "Initial commit of UniswapV3 Mock project"
+- git remote add origin https://github.com/wwignes88/SmartContractDevelopment.git
+- git push -u origin master
+
+
+PUSH TO MAIN:
+
+  - git checkout main
+  - git add .
+  - git commit -m "Add UniswapV3Mock project"
+  - git push -u origin main
